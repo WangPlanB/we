@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OrderDAL.cs" />
     <Compile Include="OrderFactory.cs" />
     <Compile Include="SupplierDAL.cs" />
     <Compile Include="DBhelper.cs" />

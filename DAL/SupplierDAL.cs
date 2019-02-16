@@ -14,7 +14,7 @@ namespace DAL
     {
         public List<Supplier> GetData()
         {
-            string sql = "select * from supplier";
+            string sql = "";
             DataTable dt = DBhelper.GetTable(sql);
             var list = from s in dt.AsEnumerable()
                        select new Supplier

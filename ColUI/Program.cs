@@ -17,6 +17,7 @@ namespace ColUI
             foreach (var item in sups)
             {
                 Console.WriteLine("{0},{1},{2}", item.Id, item.Name, item.Address);
+                Console.WriteLine("sb");
             }
             Console.ReadKey();
         }
